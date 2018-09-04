@@ -10,6 +10,10 @@ namespace Menus
         public GUIButton KarkasButton;
         public GUIButton FootsButton;
         public GUIButton PillowlButton;
-        
+        public void SetMaterial(string materialName)
+        {
+            Material setMaterial = Resources.Load<Material>(materialName);
+            CommonData.CurrentPartGameObject.GetComponent<Renderer>().material = setMaterial;
+        }
     }
 }

@@ -11,7 +11,7 @@ namespace States
         public FootsEdit() { }
         public override void Initialize()
         {
-
+            CommonData.CurrentPartGameObject = CommonData.prefabs.gameobjectLookup[StringConstants.Prefab_Foots];
             InitializeUI();
         }
         private void InitializeUI()

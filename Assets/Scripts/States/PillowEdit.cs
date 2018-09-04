@@ -11,7 +11,7 @@ namespace States
         public PillowEdit() { }
         public override void Initialize()
         {
-
+            CommonData.CurrentPartGameObject = CommonData.prefabs.gameobjectLookup[StringConstants.Prefab_Pillow];
             InitializeUI();
         }
         private void InitializeUI()

@@ -11,7 +11,7 @@ namespace States
         public MetalEdit() { }
         public override void Initialize()
         {
-
+            CommonData.CurrentPartGameObject = CommonData.prefabs.gameobjectLookup[StringConstants.Prefab_Metal];
             InitializeUI();
         }
         private void InitializeUI()

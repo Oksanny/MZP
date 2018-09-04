@@ -11,7 +11,7 @@ namespace States
         public KarkasEdit() { }
         public override void Initialize()
         {
-
+            CommonData.CurrentPartGameObject = CommonData.prefabs.gameobjectLookup[StringConstants.Prefab_Karkas];
             InitializeUI();
         }
         private void InitializeUI()

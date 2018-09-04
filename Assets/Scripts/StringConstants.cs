@@ -23,6 +23,11 @@ using UnityEngine;
      public const string Prefab_FootsEdit_GUI = "Prefab_FootsEdit_GUI";
      public const string Prefab_MetalEdit_GUI = "Prefab_MetalEdit_GUI";
 
+     public const string Prefab_Foots = "Foots";
+     public const string Prefab_Karkas = "Karkas";
+     public const string Prefab_Pillow = "Pillow";
+     public const string Prefab_Metal = "Metal";
+
      public const string PrefabsSingleLabelMenu = "SingleLabelMenu";
      public const string PrefabMainMenu = "MainMenu";
      public const string PrefabMainMenuMap = "MainMenuMap";
